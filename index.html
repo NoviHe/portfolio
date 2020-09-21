@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <script src="https://kit.fontawesome.com/45ba345201.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Novi Herlambang</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+    <span class="navbar-brand mb-0 h1">My Resume</span>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end navbar -->
+  <section class="home" id="home">
+    <!-- Jumbutron -->
+    <div class="jumbotron jumbotron-fluid text-center" id="jumbotron">
+      <div class="container">
+        <img src="img/profil.png" class="rounded-circle" width="160px">
+        <h1 class="display-4 text-white">Novi Herlambang</h1>
+        <p class="lead text-white">Blogger | Programer | Tech Enthusiast</p>
+      </div>
+    </div>
+    <!-- End Jumbutron -->
+  </section>
+
+  <!-- About -->
+  <section class="about pt-5" id="about">
+    <div class="container">
+     <!--  <div class="row">
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>About Me</h1>
+              <hr>
+              <p>Saya adalah seorang Pelajar Lulusan SMKN 1 PADAHERANG Jurusan Rekayasa Perangkat Lunak
+                (Software Engineering). Saya lahir di Ciamis, pada 26 September 2001. Saya sangat suka
+                dengan hal yang berbau teknologi, karena teknologi setiap detik selalu update dan baru.
+                Seperti halnya saya yang akan selalu mengupdate diri dan mempelajari hal hal baru untuk
+                menjadi yang lebih baik dan menjadi orang yang bisa memberikan manfaat, membantu orang
+                lain dan Berguna di masyarakat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="img/profil2.png" alt="profil2" width="200px" class="rounded-circle">
+        </div>
+      </div> -->
+      <h1>About Me</h1>
+      <hr>
+      <div class="row justify-content-md-center">
+        <div class="col-md-6">
+          <h4 class="text-center">Education</h4>
+          <hr>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              SD Negeri 2 Ciganjeng
+              <span class="badge badge-dark badge-pill">2008 - 2014</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              SMP Negeri 1 Padaherang
+              <span class="badge badge-dark badge-pill">2014 - 2017</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              SMK Negeri 1 Padaherang (Software Engineering)
+              <span class="badge badge-dark badge-pill">2017 - 2020</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-center">Experience</h4>
+          <hr>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-10">
+                  <ul class="list-group">
+                    <li class="list-group-item active">PT. Citcall Teknologi Indonesia</li>
+                    <li class="list-group-item">Magang / PKL, selama 4 Bulan</li>
+                    <li class="list-group-item">Juli 2019 - Oktober 2019</li>
+                  </ul>
+                </div>
+                <div class="col-2">
+                  <span class="badge badge-dark badge-pill">2019</span>
+                </div>
+              </div>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end About -->
+
+  <!-- PortFolio -->
+  <section class="portfolio pt-5 pb-5 justify-content-center" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Project</h1>
+          <hr>
+          <div class="row" id="myportfolio"></div>
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="img/pengaduan.png" class="card-img-top" alt="pengaduan app">
+                  <div class="card-body">
+                    <h5 class="card-title">Ciganjeng-Damai (Pengaduan App)</h5>
+                    <p class="card-text">Ciganjeng Damai merupakan aplikasi pengaduan masyarakat. Website yang bisa melaporkan berbagai kejadian di ciganjeng yang kemudian akan di tanggapi oleh operator.</p>
+                    <a href="https://github.com/NoviHe/CiganjengDamai-pengaduan-app" class="card-link">More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="img/inventori.png" class="card-img-top" alt="inventori app">
+                  <div class="card-body">
+                    <h5 class="card-title">InventoriSMK (Inventaris App)</h5>
+                    <p class="card-text">Sebuah aplikasi pengolahan data inventaris sekolah SMK dengan framework php Laravel 6.</p>
+                    <a href="https://github.com/NoviHe/InventoriSMK-app" class="card-link">More</a>
+                  </div>
+                </div>
+              </div>  
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="img/smart-home.png" class="card-img-top" alt="pengaduan app">
+                  <div class="card-body">
+                    <h5 class="card-title">Smart Home (IoT)</h5>
+                    <p class="card-text">Membuat Smart Home IoT dengan Arduino</p>
+                    <a href="https://github.com/NoviHe" class="card-link">More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="col-md-6">
+                <div class="card">
+                  <img src="img/inventori.png" class="card-img-top" alt="inventori app">
+                  <div class="card-body">
+                    <h5 class="card-title">InventoriSMK (Inventaris App)</h5>
+                    <p class="card-text">Sebuah aplikasi pengolahan data inventaris sekolah SMK dengan framework php Laravel 6.</p>
+                    <a href="https://github.com/NoviHe/InventoriSMK-app" class="card-link">More</a>
+                  </div>
+                </div>
+              </div>   -->
+            </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end PortFolio -->
+
+  <!-- appreciation -->
+  <section class="appreciation pt-5 pb-5 justify-content-center" id="appreciation">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>My Appreciation</h1>
+          <hr>
+          <div class="row" id="sertifikat"></div>
+
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="img/sertifikasi/web.png" class="card-img-top" alt="pengaduan app">
+                  <div class="card-body">
+                    <h6 class="card-title">Belajar Dasar Pemrograman Web (Dicoding)</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="img/sertifikasi/kotlin.png" class="card-img-top" alt="inventori app">
+                  <div class="card-body">
+                    <h6 class="card-title">Memulai Pemrograman Dengan Kotlin (Dicoding)</h6>
+                  </div>
+                </div>
+              </div>  
+
+            </div>
+
+            <br>
+
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="img/sertifikasi/aplikasi-android.png" class="card-img-top" alt="pengaduan app">
+                  <div class="card-body">
+                    <h6 class="card-title">Belajar Membuat Aplikasi Android Pemula (Dicoding)</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="img/sertifikasi/baparekraf.png" class="card-img-top" alt="inventori app">
+                  <div class="card-body">
+                    <h6 class="card-title">Seminar Baparekaf Developer Day 2020 (Dicoding)</h6>
+                  </div>
+                </div>
+              </div>  
+              
+            </div>
+
+            <br>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end appreciation -->
+
+  <!--footer-->
+  <footer>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1 class="contact">Contact</h1>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row pb-1 justify-content-center">
+            <span class="icon-collor">
+              <i class="fas fa-phone fa-3x"></i>
+            </span>
+          </div>
+          <p class="contact-font">+62 822-1735-2703</p>
+        </div>
+        <div class="col-md-4">
+          <div class="row pb-1 justify-content-center">
+            <span class="icon-collor">
+              <i class="fas fa-envelope fa-3x"></i>
+            </span>
+          </div>
+          <p class="contact-font">noovv9@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <div class="row pb-1 justify-content-center">
+            <span class="icon-collor">
+              <i class="fas fa-location-arrow fa-3x"></i>
+            </span>
+          </div>
+          <p class="contact-font">www.nobicode.my.id</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col">
+          <p align="center">&copy; Copyright 2020 Resume | Built By Novi Herlambang</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--akhir footer-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
